@@ -1,5 +1,4 @@
 # Python
-
 It's just a fractal visualizer in Python.
 
 I made it as an exercise for myself: I did not use any librairies.
@@ -31,3 +30,6 @@ Did not use complex.h header file.
 Fix: If the real part of the complex number is 0, the "checkIfInsideSet function always returns "1"
 
 Remove the math.h header file, and implement the math function myself.
+
+# Next steps:
+Do a fractal visualizer in Haskell, this might be fun.
