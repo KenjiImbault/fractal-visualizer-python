@@ -124,7 +124,7 @@ Complex powComplex(Complex a, int n) {
     Complex c;
     float r;
     float phi;
-    if (a.real == 0 && a.real == 0 && n>0) {
+    if (a.real == 0 && a.img == 0 && n>0) {
         c.real = 0;
         c.img = 0;
     }
