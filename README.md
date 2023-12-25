@@ -27,7 +27,7 @@ Did not use complex.h header file.
 
 ## TODO:
 
-Fix: If the real part of the complex number is 0, the "checkIfInsideSet function always returns "1"
+Fix: If the size of the matrix is too big, there is a black vertical line where the real part is equal to 0.
 
 Remove the math.h header file, and implement the math function myself.
 
