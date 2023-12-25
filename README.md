@@ -26,9 +26,6 @@ Same thing as Python. But way quicker. (700x faster than Python from my testing)
 Did not use complex.h header file.
 
 ## TODO:
-
-Fix: If the size of the matrix is too big, there is a black vertical line where the real part is equal to 0.
-
 Remove the math.h header file, and implement the math function myself.
 
 # Next steps:
