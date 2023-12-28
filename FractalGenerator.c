@@ -338,7 +338,7 @@ int ** checkMatrixInsideJuliaSet(Complex** matrix, Complex c, int n, int r, int 
 }
 
 void matrixToHTML(FILE* file, char* fileName, int** matrix, int n, int m) {
-    file = fopen("fractal.html", "w");
+    file = fopen(fileName, "w");
     fprintf(file, "<!DOCTYPE html>\n");
     fprintf(file, "<html>\n");
     fprintf(file, "<head>\n");
