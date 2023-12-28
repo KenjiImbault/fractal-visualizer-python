@@ -19,14 +19,43 @@ juliaMatrix = checkMatrixInsideJuliaSet(matrix, C, 20, 2)
 
 (You can then visualize the fractal by using printMatrix or matrixToHTML)
 
+## Performance for a n = 100 Mandelbrot fractal
+Generate the matrix grid: 0.004s
+
+Generate the fractal: 26.897s
+
+Generate the HTML file: 0.0132s
+
+Total: 26.9141s
 
 # C
 Same thing as Python. But way quicker. (700x faster than Python from my testing)
 
 Did not use complex.h header file.
 
+## Performance for a n = 100 Mandelbrot fractal
+Generate the matrix grid: 0.001s
+
+Generate the fractal: 0.025s
+
+Generate the HTML file: 0.013s
+
+Total: 0.039s
+
 ## TODO:
 Remove the math.h header file, and implement the math function myself.
 
-# Next steps:
-Do a fractal visualizer in Haskell, this might be fun.
+# Haskell
+Same thing as Python and C.
+
+Did not use the Data.Complex package.
+
+## Performance for a n = 100 Mandelbrot fractal
+Generate the matrix grid: 0s
+
+Generate the fractal: 0s
+
+Generate the HTML file: 36.39s
+
+Total: 39.39s
+
