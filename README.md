@@ -57,5 +57,5 @@ Generate the fractal: 0s
 
 Generate the HTML file: 36.39s
 
-Total: 39.39s
+Total: 36.39s
 
